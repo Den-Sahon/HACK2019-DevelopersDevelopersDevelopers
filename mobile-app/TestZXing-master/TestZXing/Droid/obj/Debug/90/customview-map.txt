@@ -1,0 +1,12 @@
+android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
+android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
+Button;obj\Debug\90\res\layout\toolbar.xml
+FrameLayout;C:\Users\Admin\source\repos\TestZXing-master\Droid\obj\Debug\90\lp\21\jl\res\layout\zxingscanneractivitylayout.xml
+FrameLayout;C:\Users\Admin\source\repos\TestZXing-master\Droid\obj\Debug\90\lp\21\jl\res\layout\zxingscannerfragmentlayout.xml
+ImageButton;obj\Debug\90\res\layout\toolbar.xml
+item;obj\Debug\90\res\values\styles.xml
+resources;C:\Users\Admin\source\repos\TestZXing-master\Droid\obj\Debug\90\lp\20\jl\res\values\strings.xml
+resources;obj\Debug\90\res\values\styles.xml
+string;C:\Users\Admin\source\repos\TestZXing-master\Droid\obj\Debug\90\lp\20\jl\res\values\strings.xml
+style;obj\Debug\90\res\values\styles.xml
+TextView;obj\Debug\90\res\layout\toolbar.xml
