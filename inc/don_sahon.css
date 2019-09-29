@@ -1,0 +1,116 @@
+.card-region-wrapper{
+	max-width: 360px;
+	width: 100%;
+	transition: box-shadow .2s ease-in-out,opacity .2s ease-in-out;
+	border: 2px solid rgb(213, 213, 213);
+	padding: 15px 15px 15px;
+}
+.new-card:focus{
+	opacity: 1;
+	box-shadow: 0 1px 8px 0 rgba(0,0,0,.32);
+	
+}
+.card-region-wrapper input.nice-input-text:focus{
+	border: none;
+}
+.card-region-wrapper input{
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #d2d2d2;
+}
+.card-logo{
+	display: block;
+	width: 100%;
+	max-width: 70px;
+	height: auto;
+}
+.card-region-titled{
+	margin-bottom: 45px;
+}
+.card-region-row{
+	width: 100%;
+}
+.card-region-row + .card-region-row{
+	margin-top: 40px;
+}
+.card-element-wrapper .nice-input-text:focus + .pseudo-placeholder{
+	color: #333;
+	opacity: .6;
+	font-size: 13px;
+}
+.card-element-wrapper .pseudo-placeholder{
+	font-size: 14px;
+	padding: 8px 10px;
+}
+.card-element-wrapper .nice-input-line{
+	height: 2px;
+	background-image: linear-gradient(to right, #21dc05, #1de105, #18e605, #11ec06, #06f106);
+}
+.element-hover-desc{
+	position: relative;
+}
+
+.element-hover-desc:before{
+	content:  attr(data-hover-description);
+	width: auto;
+	padding: 3px 5px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0, .4);
+	opacity: 0;
+	transform: translate(-50%, -100%);
+	left: 50%;
+	top: -25px;
+	background: #fff;
+	z-index: 2;
+	transition: all .2s;
+	border-radius: 3px;
+	position: absolute;
+	white-space: nowrap;
+	visibility: hidden;
+}
+.element-hover-desc:hover:before{
+	top: -10px;
+	opacity: 1;
+	visibility: visible;
+}
+.helper-image{
+	width: 24px;
+	height: 24px;
+	display: block;
+	opacity: .8;
+	transition: opacity .2s;
+	cursor: pointer;
+}
+.helper-image:hover{
+	opacity: 1;
+}
+.cvv-cew, .date-cew{
+	width: 100%;
+	max-width: 100px;
+}
+.cvv-cew input{
+	font-size: 30px;
+}
+.title-main{
+	white-space: nowrap;
+	position: absolute;
+	left: 15px;
+	top: 0;
+	color: #fff;
+	width: 200px;
+	height: auto;
+}
+.title-main img{
+	width: 100%;
+	height: auto;
+}
+.auth-form-bottom{
+	font-size: 18px;
+	color: #fff;
+	margin-top: 25px;
+	text-align: center;
+	padding-top: 10px;
+	border-top: 3px solid #eee;
+}
